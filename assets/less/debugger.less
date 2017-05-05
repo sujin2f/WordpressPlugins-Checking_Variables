@@ -1,0 +1,113 @@
+/**
+ * @package Query Monitor Extension - Checking Variables
+ * @author Sujin 수진 Choi
+ * @version 1.0.0
+ */
+
+.QMCV_IO {
+	@GRAY: #CCCCCC;
+	@LIGHT-GRAY: #EEEEEE;
+	@DARK-GRAY: #777777;
+	@GREEN: #4E9A06;
+	@RED: #CC0000;
+	@BLUE: #0074A2;
+
+	body.wp-admin & {
+		margin:20px 30px 20px 170px;
+		padding: 20px 30px 60px 30px;
+
+		@media (max-width: 960px) {
+			margin:20px 30px 20px 40px;
+		}
+
+		@media (max-width: 782px) {
+			margin:0;
+			padding: 0 10px 60px;
+		}
+	}
+
+	margin:20px 30px;
+	padding:20px 30px;
+
+	body.wp-admin .QMCV_Table & {
+		margin:0;
+		padding:0;
+	}
+
+	h3 {
+		font-size:20px;
+		margin-bottom:5px;
+		cursor:pointer;
+
+		span {
+			font-size:13px;
+			color:@RED;
+			font-weight: normal;
+		}
+	}
+
+	div.file {
+		color:@BLUE;
+		font-size:13px;
+		border-bottom:1px solid @GRAY;
+		padding-bottom:10px;
+
+		span {
+			color:@RED;
+		}
+	}
+
+	dl {
+		margin:0 30px;
+
+		span {
+			font-weight: normal;
+			margin-left:10px;
+
+			&.type {
+				color:@GREEN;
+			}
+
+			&.value {
+				color:@RED;
+			}
+
+			&.class_keyword {
+				color:@RED;
+				margin:0;
+			}
+
+			&.dashicons {
+				color: @RED;
+				margin: 0;
+				text-align: center;
+			}
+		}
+	}
+
+	> dl {
+		padding:5px 0;
+		margin:0;
+// 		line-height:35px;
+	}
+
+	dt {
+		margin:0 0 20px 0;
+
+		&.foldable {
+			cursor:pointer;
+		}
+	}
+
+	dd {
+		margin:0;
+	}
+
+
+
+
+	.QMCV_value {
+		background-color: @LIGHT-GRAY;
+		padding:20px;
+	}
+}

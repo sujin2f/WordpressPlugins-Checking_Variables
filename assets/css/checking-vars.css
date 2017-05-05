@@ -1,0 +1,95 @@
+/**
+ * @package Query Monitor Extension - Checking Variables
+ * @author Sujin 수진 Choi
+ * @version 1.0.0
+ */
+.QMCV_IO {
+  margin: 20px 30px;
+  padding: 20px 30px;
+}
+body.wp-admin .QMCV_IO {
+  margin: 20px 30px 20px 170px;
+  padding: 20px 30px 60px 30px;
+}
+@media (max-width: 960px) {
+  body.wp-admin .QMCV_IO {
+    margin: 20px 30px 20px 40px;
+  }
+}
+@media (max-width: 782px) {
+  body.wp-admin .QMCV_IO {
+    margin: 0;
+    padding: 0 10px 60px;
+  }
+}
+body.wp-admin .QMCV_Table .QMCV_IO {
+  margin: 0;
+  padding: 0;
+}
+.QMCV_IO h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.QMCV_IO h3 span {
+  font-size: 13px;
+  color: #CC0000;
+  font-weight: normal;
+}
+.QMCV_IO div.file {
+  color: #0074A2;
+  font-size: 13px;
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom: 10px;
+}
+.QMCV_IO div.file span {
+  color: #CC0000;
+}
+.QMCV_IO dl {
+  margin: 0 30px;
+}
+.QMCV_IO dl span {
+  font-weight: normal;
+  margin-left: 10px;
+}
+.QMCV_IO dl span.type {
+  color: #4E9A06;
+}
+.QMCV_IO dl span.value {
+  color: #CC0000;
+}
+.QMCV_IO dl span.class_keyword {
+  color: #CC0000;
+  margin: 0;
+}
+.QMCV_IO dl span.dashicons {
+  color: #CC0000;
+  margin: 0;
+  text-align: center;
+}
+.QMCV_IO > dl {
+  padding: 5px 0;
+  margin: 0;
+}
+.QMCV_IO dt {
+  margin: 0 0 20px 0;
+}
+.QMCV_IO dt.foldable {
+  cursor: pointer;
+}
+.QMCV_IO dd {
+  margin: 0;
+}
+.QMCV_IO .QMCV_value {
+  background-color: #EEEEEE;
+  padding: 20px;
+}
+/**
+ * @package Query Monitor Extension - Checking Variables
+ * @author Sujin 수진 Choi
+ * @version 1.0.0
+ */
+.wrap#admin-check-variables #donation_div {
+  position: absolute;
+  right: 0;
+}
